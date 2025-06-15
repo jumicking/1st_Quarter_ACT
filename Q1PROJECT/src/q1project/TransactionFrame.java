@@ -29,6 +29,7 @@ public class TransactionFrame extends javax.swing.JFrame {
     public TransactionFrame(String selectedDonut){
         initComponents();
         comboboxProduct.setSelectedItem(selectedDonut);
+         model = (DefaultTableModel)cartTable.getModel();
         
         
     }
